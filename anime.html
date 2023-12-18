@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <style>
+            div{
+                border: 2px solid yellow;
+                width: 100px;
+                height: 100px;
+                background-color: aquamarine;
+                animation-name: anime;
+                animation-direction: normal;
+                animation-delay: 1s;
+                animation-duration: 5s;
+                position: fixed;
+                animation-iteration-count: 2;
+                margin: 0px 0px 0px 700px;
+            }
+          
+           
+            @keyframes anime {
+              0%{background-color: red; top: 0%;border-radius: 0px; }
+              50%{background-color: magenta;top: 250px; width: 200px;border-radius: 0px; transform: rotate(30deg);}
+              75%{background-color: red; top: 400px; width: 100px;border-radius: 0px; transform: rotate(120deg);}
+              100%{background-color: gray;  top: 600px;border-radius: 100px}              
+            } 
+        </style>
+    </head>
+    <body>
+        <div class="dt">
+        </div>
+
+    </body>
+</html>
